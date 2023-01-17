@@ -12,7 +12,7 @@ Widget postcardFooterSection= HeaderButtonSection(
                   print("like post");
                 }),
             buttonTwo: headerbutton(
-                buttonText: "Comment",
+                buttonText: "coment",
                 buttonIcon: Icons.message_outlined,
                 buttonColor: Colors.grey.shade700,
                 buttonAction: () {

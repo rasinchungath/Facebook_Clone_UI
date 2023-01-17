@@ -1,7 +1,4 @@
-import 'package:facebook/assets.dart';
-import 'package:facebook/sections/headerButtonSection.dart';
 import 'package:facebook/widgets/avatar.dart';
-import 'package:facebook/widgets/headerButton.dart';
 import 'package:flutter/material.dart';
 
 class PostCard extends StatelessWidget {

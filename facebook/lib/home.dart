@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
       title: "clone app",
       home: Scaffold(
           appBar: AppBar(
-            title: Text(
+            title: const Text(
               "facebook",
               style: TextStyle(
                 color: Colors.blue,
@@ -121,7 +121,7 @@ class Home extends StatelessWidget {
                 postTitle: postchild,
                 postPic: childhood,
                 comments: "6K",
-                likes: "10.5K",
+                likes: "10",
                 shares: "1.1K",
                 
               ),

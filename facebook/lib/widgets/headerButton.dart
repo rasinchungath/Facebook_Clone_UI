@@ -6,7 +6,11 @@ Widget headerbutton({
     required Color buttonColor,
     required void Function() buttonAction,
   }){
-    return FlatButton.icon(onPressed: buttonAction,
-    icon: Icon(buttonIcon, color: buttonColor,),
-     label:Text(buttonText) );
+    return ElevatedButton.icon(onPressed: buttonAction, icon: Icon(buttonIcon,), label: Text(buttonText,),
+    style: ButtonStyle(
+      backgroundColor:  MaterialStateProperty.all(buttonColor),
+      
+    ),
+    );
+  
   }

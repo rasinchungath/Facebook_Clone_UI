@@ -22,15 +22,18 @@ class HeaderButtonSection extends StatelessWidget {
     return Container(
       height: 40,
       width: 40,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          buttonOne,
-          verticalDivider,
-          buttonTwo,
-          verticalDivider,
-          buttonThree,
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(2.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            buttonOne,
+            verticalDivider,
+            Expanded(child: buttonTwo),
+            verticalDivider,
+            buttonThree,
+          ],
+        ),
       ),
     );
   }
